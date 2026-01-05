@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>NETFLOW CYBER CAFE</title>
+<style>
+  :root{
+    --brand:#0b5ed7;
+    --brand-dark:#084298;
+    --brand-hover:#094cb4;
+    --bg:#f4f6f8;
+    --card:#f9f9f9;
+    --text:#333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  html,body{height:100%;margin:0;background:var(--bg);color:var(--text);}
+  header{background:var(--brand);color:#fff;padding:28px 16px;text-align:center;}
+  nav{background:var(--brand-dark);padding:10px 8px;}
+  nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:12px;}
+  nav a{color:#fff;text-decoration:none;font-weight:700;padding:6px 10px;border-radius:4px;}
+  nav a:focus,nav a:hover{background:rgba(255,255,255,0.06);}
+  main{max-width:1200px;margin:20px auto;padding:0 12px;}
+  section{background:#fff;padding:32px;border-radius:8px;margin-bottom:18px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+  h1,h2{margin:0 0 12px 0;}
+  h2{color:var(--brand);}
+  .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;}
+  .card{background:var(--card);padding:16px;border-left:6px solid var(--brand);border-radius:6px;}
+  input[type="text"], select, button{width:100%;padding:10px;border-radius:6px;border:1px solid #ddd;font-size:1rem;box-sizing:border-box;}
+  label{display:block;margin-bottom:6px;font-weight:600;}
+  .form-row{margin-bottom:10px;}
+  button{background:var(--brand);color:#fff;border:0;cursor:pointer;}
+  button:hover{background:var(--brand-hover);}
+  footer{background:var(--brand-dark);color:#fff;text-align:center;padding:16px;font-size:0.95rem;}
+  ul#parcelList{padding-left:1.1rem;margin:8px 0;}
+  .joke-card{background:#fff;border:1px solid #eee;padding:16px;border-radius:8px;min-height:64px;display:flex;flex-direction:column;justify-content:center;}
+  .joke-setup{font-weight:700;margin-bottom:8px;}
+  .joke-delivery{margin-top:6px;color:#444;}
+  .controls{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+  @media (max-width:520px){
+    header{padding:18px 8px;}
+    section{padding:20px;}
+    .controls{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>NETFLOW CYBER CAFE</h1>
+  <p>Digital Services • Online Solutions • Kilimall Pickup Station</p>
+</header>
+
+<nav aria-label="Main navigation">
+  <ul>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#pickup">Kilimall Pickup</a></li>
+    <li><a href="#tracking">Track Parcel</a></li>
+    <li><a href="#payments">Payments</a></li>
+    <li><a href="#admin">Admin</a></li>
+    <li><a href="#jokes">Jokes</a></li>
+    <li><a href="#location">Location</a></li>
+  </ul>
+</nav>
+
+<main>
+  <section id="services" aria-labelledby="services-heading">
+    <h2 id="services-heading">Our Services</h2>
+    <div class="services" role="list">
+      <div class="card" role="listitem"><h3>Internet & Browsing</h3><ul><li>Fast Internet</li><li>Email</li><li>Zoom / Teams</li></ul></div>
+      <div class="card" role="listitem"><h3>Printing</h3><ul><li>B&W & Color</li><li>Scanning</li><li>Lamination</li></ul></div>
+      <div class="card" role="listitem"><h3>Typing</h3><ul><li>CVs</li><li>Assignments</li><li>Reports</li></ul></div>
+      <div class="card" role="listitem"><h3>Government Services</h3><
+
